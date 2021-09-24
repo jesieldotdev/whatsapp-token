@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Whapsapp-token</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet"> 
+  </head>
+<body>
+  <header></header>
+  <section>
+    <span>
+      <img src='https://cdn-icons-png.flaticon.com/512/185/185988.png'/>
+      <h1>Whatsapp-token</h1>
+
+    </span>
+    <p id="autor">Feito por Jesiel364</p>
+      <div id='chat'><p>Olá, esse é um gerador de convite para WhatsApp...😉</p>
+        <p>Digite o número na caixa de texto abaixo.</p></div>
+      <div id='form'><input value="+55" type='text' class='form'><img id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
+  </section>
+
+  <footer></footer>
+  
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

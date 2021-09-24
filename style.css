@@ -1,0 +1,117 @@
+body{
+  font-family: 'Gemunu Libre', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80');
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+}
+
+section{
+  width: 350px;
+  height: 450px;
+  background-color: #363636;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  
+}
+
+#form{
+  background-color: grey; 
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 0px;
+  height: 7;
+    50px;
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 0px;
+}
+
+
+img{
+  width: 35px;
+  height: 35px;
+  /*background-color: midnightblue;*/
+}
+
+h1{
+  display: flex;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  padding: 0px;
+  /*background-color: blue;*/
+}
+
+#autor{
+  background-color: inherit;
+  color: whitesmoke;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: 55px;
+  padding: 0px;
+}
+
+span{
+  height: 12px;
+  /**background-color: blue;**/
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  color: whitesmoke;
+}
+
+input{
+  width: 280px;
+  height: 30px;
+  border-radius:25px;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: 0px;
+  display: inline;
+  /*background: transparent;*/
+  color: black;
+  font-family: 'Gemunu Libre', sans-serif;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+#send{
+  width: 22px;
+  height: 22px;
+  border-width: 0px;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-bottom: auto;
+  display: inline;
+  border-radius: 8px;
+  padding: 3px;
+  background-color: #25D366;
+ 
+}
+
+#chat{
+
+  height: 100%;
+  background: url('https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80');
+  background-size: 100%;
+  color: whitesmoke;
+  font-size: 18px;
+  /*padding-top: 10px;
+  padding-left: 10px;*/
+  
+}
+
+p{
+  width: 80%;
+  background-color: #128C7E;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: inline-grid;
+}
