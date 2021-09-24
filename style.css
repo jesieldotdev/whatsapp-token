@@ -2,13 +2,15 @@ body{
   font-family: 'Gemunu Libre', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80');
+  background-color: springgreen;
+  background: url('_img/bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 200%;
 }
 
 section{
-  width: 350px;
+  min-width: 350px;
+  max-width: 400px;
   height: 450px;
   background-color: #363636;
   margin-left: auto;
@@ -18,7 +20,7 @@ section{
 }
 
 #form{
-  background-color: grey; 
+  background-color: #363636; 
   padding-top: 7px;
   padding-bottom: 7px;
   margin-top: 0px;
@@ -97,7 +99,7 @@ input{
 #chat{
 
   height: 100%;
-  background: url('https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80');
+  background: url('_img/wallpaper.jpg');
   background-size: 100%;
   color: whitesmoke;
   font-size: 18px;
