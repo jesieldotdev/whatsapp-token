@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: springgreen;
-  /*background: url('_img/bg.jpg');*/
+  background: url('bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 200%;
 }
