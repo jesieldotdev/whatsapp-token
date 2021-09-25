@@ -120,7 +120,8 @@ textarea:focus, input:focus, select:focus {
   display: block;
   /*min-height: 300px;*/
   height: 450px;
-  background: url('_img/wallpaper.jpg');
+  /*background: url('_img/wallpaper.jpg');*/
+  background-color: #262626;
   background-size: 100%;
   color: whitesmoke;
   font-size: 18px;
@@ -172,8 +173,8 @@ p{
 }
 
 a{
-  color: #34B7F1;
+  color: #25D366;
 }
 a:hover{
-  color: #34E7F1;
+  color: blue;
 }
