@@ -27,7 +27,7 @@
         
       </div>
 
-      <div id='form'><input id="num_txt" value="55 " type='text' class='form'><img onclick="gerar()" id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
+      <div id='form'><input type="number" max="14" id="num_txt" value="55 " type='text' class='form'><img onclick="gerar()" id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
   </section>
 
   <footer></footer>
