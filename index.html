@@ -27,7 +27,7 @@
         
       </div>
 
-      <div id='form'><input type="number" max="14" id="num_txt" value="55 " type='text' class='form'><img onclick="gerar()" id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
+      <div id='form'><input type="number" max="18 " id="num_txt" value=55 class='form'><img onclick="gerar()" id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
   </section>
 
   <footer></footer>
@@ -40,8 +40,22 @@
       let num_no_space = num.replace(/\s+/g, '')
 
       console.log(num_no_space)
-      chat.innerHTML += `<div id="msg3"><p id="numero">${num}</p></div>`
-      chat.innerHTML += `<div id="msg4"><p id="msg2"><a target='_blank' href='https://wa.me/${num_no_space}'>https://wa.me/${num_no_space}</a></p></div>`
+      if (num_no_space.length != 0){
+        if(num_no_space.length < 8){
+          chat.innerHTML += `<div id="msg2"><p>Número Inválido. 🚫</p></div>`
+          chat.innerHTML += `<div id="msg2"><p>Digite um número acima de 8 digitos.</p></div>`
+      }else if(num_no_space.length > 18){
+        chat.innerHTML += `<div id="msg2"><p>Digite um número abaixo de 18 digitos.</p></div>`
+      } else{
+        chat.innerHTML += `<div id="msg3"><p id="numero">${num}</p></div>`
+        chat.innerHTML += `<div id="msg4"><p id="msg2"><a target='_blank' href='https://wa.me/${num_no_space}'>https://wa.me/${num_no_space}</a></p></div>`}
+      }
+
+      
+      else{
+        console.log('Erro')
+        chat.innerHTML += `<div id="msg2"><p>Digite o número na caixa de texto abaixo e será gerado um link com o número.</p></div>`
+      }
     }
   </script>
   
