@@ -6,11 +6,12 @@ body{
   background: url('_img/bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 200%;
+  min-width: 250px;
 }
 
 section{
   min-width: 250px;
-  max-width: 350px;
+  max-width: 500px;
   /*min-height: 250px;*/
   max-height: 350px;
   background-color: #363636;
@@ -29,7 +30,7 @@ section{
   padding-top: 0px;
   padding-bottom: 0px;
   width: 100%;
-  display: flex;
+  display: inline-flex;
 }
 
 #toolbar{
@@ -74,7 +75,7 @@ span{
 }
 
 input{
-  width: 280px;
+  width: 75%;
   height: 30px;
   border-radius:25px;
   border-width: 0px;
@@ -101,7 +102,7 @@ textarea:focus, input:focus, select:focus {
   width: 22px;
   height: 22px;
   border-width: 0px;
-  margin-right: auto;
+  margin-right: 10px;
   margin-left: 10px;
   margin-bottom: auto;
   margin: auto;
@@ -143,8 +144,8 @@ p{
 #msg1{
   width: 270px;
   /*background-color: blueviolet;*/
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 5%;
+  margin-top: 5%;
   margin-bottom: 0px;
   padding: 0px;
 }
@@ -153,21 +154,21 @@ p{
   width: 270px;
   /*background-color: blue;*/
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 5%;
   margin-bottom: 0px;
 }
 
 #msg3{
   /*background-color: skyblue;*/
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 5%;;
   margin-bottom: 0px;
 }
 
 #numero{
   background-color: #128C7E;
   margin-left: auto;
-  margin-right: 5px;
+  margin-right: 5%;
   text-align: right;
   max-width: 120px;
 }
