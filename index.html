@@ -13,21 +13,36 @@
 <body>
   <header></header>
   <section>
+    
     <div id="toolbar">
-    <span>
-      <img src='https://cdn-icons-png.flaticon.com/512/185/185988.png'/>
-      <h1>Whatsapp-token</h1>
-
-    </span>
+      
+      <div id="tb-content">
+        
+      <img id="avatar" src='https://cdn-icons-png.flaticon.com/512/185/185988.png'/>
+      
+      <div>
+      <p id="title">WhatsApp Token</p>
     <p id="autor">Feito por Jesiel364</p>
+   
+    </div>
+    
+    </div>
+    
   </div>
       <div id='chat'>
-        <div id="msg1"><p>Olá, esse é um gerador de convite para WhatsApp...😃</p></div>
-        <div id="msg2"><p>Digite o número na caixa de texto abaixo e será gerado um link com o número.</p></div>
-        
+        <scroll-container>
+          <scroll-page>
+        <div>
+          
+          <p id="msg1" class="msg" >Olá, esse é um gerador de convite para WhatsApp...😃</p></div>
+        <div id="msg2"><p class="msg">Digite o número na caixa de texto abaixo e será gerado um link com o número.</p></div>
+        </scroll-page>
+        </scroll-container>
       </div>
 
-      <div id='form'><input type="number" max="18 " id="num_txt" value=55 class='form'><img onclick="gerar()" id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
+      <div id='form'>
+        <input placeholder="Digite o número" type="number" max="18 " id="num_txt" value=55 class='form'>
+        <img onclick="gerar()" id='send' src='https://cdn-icons-png.flaticon.com/512/736/736161.png' class='form' /></div>
   </section>
 
   <footer></footer>
@@ -42,19 +57,19 @@
       console.log(num_no_space)
       if (num_no_space.length != 0){
         if(num_no_space.length < 8){
-          chat.innerHTML += `<div id="msg2"><p>Número Inválido. 🚫</p></div>`
-          chat.innerHTML += `<div id="msg2"><p>Digite um número acima de 8 digitos.</p></div>`
+          chat.innerHTML += `<scroll-page><div id="msg2"><p class="msg">Número Inválido. 🚫</p></div></scroll-page>`
+          chat.innerHTML += `<scroll-page><div  id="msg2"><p class="msg">Digite um número acima de 8 digitos.</p></div></scroll-page>`
       }else if(num_no_space.length > 18){
-        chat.innerHTML += `<div id="msg2"><p>Digite um número abaixo de 18 digitos.</p></div>`
+        chat.innerHTML += `<scroll-page><div id="msg2"><p class="msg">Digite um número abaixo de 18 digitos.</p></div></scroll-page>`
       } else{
-        chat.innerHTML += `<div id="msg3"><p id="numero">${num}</p></div>`
-        chat.innerHTML += `<div id="msg4"><p id="msg2"><a target='_blank' href='https://wa.me/${num_no_space}'>https://wa.me/${num_no_space}</a></p></div>`}
+        chat.innerHTML += `<scroll-page><div  id="msg3"><p class="msg2">${num}</p></div></scroll-page>`
+        chat.innerHTML += `<scroll-page><div  id="msg4"><p class="msg" id="msg2"><a target='_blank' href='https://wa.me/${num_no_space}'>https://wa.me/${num_no_space}</a></p></div></scroll-page>`}
       }
 
       
       else{
         console.log('Erro')
-        chat.innerHTML += `<div id="msg2"><p>Digite o número na caixa de texto abaixo e será gerado um link com o número.</p></div>`
+        chat.innerHTML += `<scroll-page><div  id="msg2"><p class="msg">Digite o número na caixa de texto abaixo e será gerado um link com o número.</p></div></scroll-page>`
       }
     }
   </script>
