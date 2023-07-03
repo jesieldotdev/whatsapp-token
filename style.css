@@ -175,8 +175,9 @@ a:hover {
 #toolbar {
   background-color: #363636;
   width: 100%;
-  position: fixed;
+  position: sticky;
   height: 60px;
+  
 }
 
 img {
