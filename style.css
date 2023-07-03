@@ -176,6 +176,7 @@ a:hover {
   background-color: #363636;
   width: 100%;
   position: sticky;
+  top: 0;
   height: 60px;
   
 }
